@@ -301,7 +301,7 @@ void assertEquals(string expected, string actual){
 int main(){
     string str;
     fstream inputFile;
-    inputFile.open("addin.txt", ios :: in);
+    inputFile.open("givenInput.txt", ios :: in);
 
     if(inputFile.is_open()){
         while(getline(inputFile, str)){
@@ -311,7 +311,7 @@ int main(){
 
     string actualResult;
     fstream outputFile;
-    outputFile.open("addout.txt", ios :: in);
+    outputFile.open("expectedOutput.txt", ios :: in);
     getline(outputFile, actualResult);
 
 
