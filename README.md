@@ -60,4 +60,40 @@ Player 1 won the game. Final Score: 15-11
 
 # Steps to run this file:
 
-* Download the folder in this repository
+* Download the repository
+* Extract the folder in your local drive
+* Open it with terminal
+
+![Screenshot from 2021-11-01 00-55-55](https://user-images.githubusercontent.com/42698268/139598440-151f59f6-cdd6-4903-b7d5-e982bf74bde8.png)
+
+* Now run the following command
+
+>``` g++ game.cpp ``` for compilation of the program
+
+
+![Screenshot from 2021-11-01 00-50-16](https://user-images.githubusercontent.com/42698268/139598347-311ed50c-8a1c-4c2c-b752-4a4c58d7cad4.png)
+
+
+>``` ./a.out ``` to run the program
+
+
+![Screenshot from 2021-11-01 00-50-33](https://user-images.githubusercontent.com/42698268/139598361-63572dda-eb22-4128-950c-726a2bc2e1df.png)
+
+* This would be the final result
+
+
+![Screenshot from 2021-11-01 00-50-48](https://user-images.githubusercontent.com/42698268/139598462-c35d7b40-90da-44c1-8639-0707c15a3ba2.png)
+
+* We have a file called ```givenInput.txt```, in which you can provide required test cases and you can test the program on those test cases.
+
+![Screenshot from 2021-11-01 01-07-51](https://user-images.githubusercontent.com/42698268/139598872-33faa88b-ebd3-46ce-8a94-e618a25d63f0.png)
+ 
+
+* This program will automatically run on all the given inputs provided in the ```givenInput.txt``` file, and will print the required result
+
+* For testing, we have a file ```expectedOutput.txt``` which will store the expected output of the test case given in the ```givenInput.txt```, and the assert function which is implemented inside the code will check whether the expected output is same as actual output or not, if both are same then it will print the statement "TEST CASE PASSED" else it will print "TEST CASE FAILED".
+
+![Screenshot from 2021-11-01 01-08-16](https://user-images.githubusercontent.com/42698268/139598884-b35c376b-b654-4dbe-bbdc-5da19c284c01.png)
+
+
+
