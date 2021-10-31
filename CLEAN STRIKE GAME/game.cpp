@@ -318,10 +318,13 @@ int main(){
     int winner = tournament(numbers);
     if(winner){
         string expectedResult = "Player "+to_string(winner)+" won the game. Final Score: "+to_string(firstPlayerPoints)+"-"+to_string(secondPlayerPoints);
+        cout<<"Player "<<winner<<" won the game. Final Score: "<<firstPlayerPoints<<"-"<<secondPlayerPoints<<endl;
         assertEquals(expectedResult, actualResult);
     }
     else{
         string expectedResult = "There is a draw. Final Score: "+to_string(firstPlayerPoints)+"-"+to_string(secondPlayerPoints);
+        cout<<"There is a draw. Final Score: "<<firstPlayerPoints<<"-"<<secondPlayerPoints<<endl;
+        assertEquals(expectedResult, actualResult);
     }
 
     //close all files
